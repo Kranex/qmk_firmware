@@ -134,6 +134,112 @@
     H__NOTE(_BF5), H__NOTE(_C6), H__NOTE(_DF6), H__NOTE(_A5), H__NOTE(_BF5), H__NOTE(_GF5), W__NOTE(_F5), W__NOTE(_F5), W__NOTE(_F5), W__NOTE(_F5), H__NOTE(_GF5), H__NOTE(_F5), H__NOTE(_EF5), H__NOTE(_C5), B__NOTE(_DF5), W__NOTE(_BF4), Q__NOTE(_BF5), Q__NOTE(_C6), Q__NOTE(_DF6), Q__NOTE(_A5), Q__NOTE(_BF5), Q__NOTE(_A5), Q__NOTE(_GS5), Q__NOTE(_A5), Q__NOTE(_C6), Q__NOTE(_BF5), Q__NOTE(_GF5), Q__NOTE(_F5), Q__NOTE(_GF5), Q__NOTE(_E5), Q__NOTE(_F5), Q__NOTE(_BF5), Q__NOTE(_A5), Q__NOTE(_AF5), Q__NOTE(_G5), Q__NOTE(_GF5), Q__NOTE(_F5), Q__NOTE(_E5), Q__NOTE(_EF5), Q__NOTE(_D5), Q__NOTE(_DF5), Q__NOTE(_C5), Q__NOTE(_DF5), Q__NOTE(_C5), Q__NOTE(_B4), Q__NOTE(_C5), Q__NOTE(_F5), Q__NOTE(_E5), Q__NOTE(_EF5), B__NOTE(_DF5), W__NOTE(_BF4), W__NOTE(_BF5), W__NOTE(_BF5), W__NOTE(_BF5), BD_NOTE(_AF5), W__NOTE(_DF5), H__NOTE(_BF4), H__NOTE(_C5), H__NOTE(_DF5), H__NOTE(_GF5), H__NOTE(_GF5), BD_NOTE(_F5), W__NOTE(_EF5), H__NOTE(_F5), H__NOTE(_EF5), H__NOTE(_DF5), H__NOTE(_A4), B__NOTE(_AF4), \
         W__NOTE(_DF5), W__NOTE(_EF5), H__NOTE(_F5), H__NOTE(_EF5), H__NOTE(_DF5), H__NOTE(_EF5), BD_NOTE(_F5),
 
+#define ZELDA_PUZZLE \
+    Q__NOTE(_G5),     \
+    Q__NOTE(_FS5),    \
+    Q__NOTE(_DS5),     \
+    Q__NOTE(_A4),    \
+    Q__NOTE(_GS4),     \
+    Q__NOTE(_E5),     \
+    Q__NOTE(_GS5),     \
+    HD_NOTE(_C6),
+
+#define ZELDA_TREASURE \
+    Q__NOTE(_A4 ), \
+    Q__NOTE(_AS4), \
+    Q__NOTE(_B4 ), \
+    HD_NOTE(_C5 ), \
+
+#define MARIO_THEME \
+    Q__NOTE(_E5), \
+    H__NOTE(_E5), \
+    H__NOTE(_E5), \
+    Q__NOTE(_C5), \
+    H__NOTE(_E5), \
+    W__NOTE(_G5), \
+    Q__NOTE(_G4),
+
+#define MARIO_GAMEOVER \
+    HD_NOTE(_C5 ), \
+    HD_NOTE(_G4 ), \
+    H__NOTE(_E4 ), \
+    H__NOTE(_A4 ), \
+    H__NOTE(_B4 ), \
+    H__NOTE(_A4 ), \
+    H__NOTE(_AF4), \
+    H__NOTE(_BF4), \
+    H__NOTE(_AF4), \
+    WD_NOTE(_G4 ),
+
+#define MARIO_MUSHROOM \
+    S__NOTE(_C5 ), \
+    S__NOTE(_G4 ), \
+    S__NOTE(_C5 ), \
+    S__NOTE(_E5 ), \
+    S__NOTE(_G5 ), \
+    S__NOTE(_C6 ), \
+    S__NOTE(_G5 ), \
+    S__NOTE(_GS4), \
+    S__NOTE(_C5 ), \
+    S__NOTE(_DS5), \
+    S__NOTE(_GS5), \
+    S__NOTE(_DS5), \
+    S__NOTE(_GS5), \
+    S__NOTE(_C6 ), \
+    S__NOTE(_DS6), \
+    S__NOTE(_GS6), \
+    S__NOTE(_DS6), \
+    S__NOTE(_AS4), \
+    S__NOTE(_D5 ), \
+    S__NOTE(_F5 ), \
+    S__NOTE(_AS5), \
+    S__NOTE(_D6 ), \
+    S__NOTE(_F6 ), \
+    S__NOTE(_AS6), \
+    S__NOTE(_F6 )
+
+#define PACMAN_THEME \
+    Q__NOTE(_B6), Q__NOTE(_B7), Q__NOTE(_FS6), Q__NOTE(_EF6), \
+    E__NOTE(_B7), QD_NOTE(_FS6), H__NOTE(_EF7), \
+    Q__NOTE(_C6), Q__NOTE(_C7), Q__NOTE(_G6), Q__NOTE(_E6), \
+    E__NOTE(_C7), QD_NOTE(_G6), H__NOTE(_E6), \
+    Q__NOTE(_B6), Q__NOTE(_B7), Q__NOTE(_FS6), Q__NOTE(_EF6), \
+    E__NOTE(_B7), QD_NOTE(_FS6), H__NOTE(_EF7), \
+    E__NOTE(_EF7), E__NOTE(_E7), Q__NOTE(_F7), \
+    E__NOTE(_F7), E__NOTE(_FS7), Q__NOTE(_G7), \
+    E__NOTE(_G7), E__NOTE(_AF7), Q__NOTE(_A7), H__NOTE(_B7), \
+
+#define RICK_ROLL      \
+    Q__NOTE(_F4),      \
+    Q__NOTE(_G4),      \
+    Q__NOTE(_BF4),     \
+    Q__NOTE(_G4),      \
+    HD_NOTE(_D5),      \
+    HD_NOTE(_D5),      \
+    W__NOTE(_C5),      \
+    S__NOTE(_REST),    \
+    Q__NOTE(_F4),      \
+    Q__NOTE(_G4),      \
+    Q__NOTE(_BF4),     \
+    Q__NOTE(_G4),      \
+    HD_NOTE(_C5),      \
+    HD_NOTE(_C5),      \
+    W__NOTE(_BF4),     \
+    S__NOTE(_REST),    \
+    Q__NOTE(_F4),      \
+    Q__NOTE(_G4),      \
+    Q__NOTE(_BF4),     \
+    Q__NOTE(_G4),      \
+    W__NOTE(_BF4),     \
+    H__NOTE(_C5),      \
+    H__NOTE(_A4),      \
+    H__NOTE(_A4),      \
+    H__NOTE(_G4),      \
+    H__NOTE(_F4),      \
+    H__NOTE(_F4),      \
+    W__NOTE(_C5),      \
+    W__NOTE(_BF4),
+
 /* Removed sounds
  +   This list is here solely for compatibility, so that removed songs don't just break things
  *   If you think that any of these songs were wrongfully removed, let us know and provide
@@ -148,12 +254,7 @@
 #define COIN_SOUND
 #define ONE_UP_SOUND
 #define SONIC_RING
-#define ZELDA_PUZZLE
-#define ZELDA_TREASURE
 #define OVERWATCH_THEME
-#define MARIO_THEME
-#define MARIO_GAMEOVER
-#define MARIO_MUSHROOM
 #define E1M1_DOOM
 #define DISNEY_SONG
 #define NUMBER_ONE
@@ -161,7 +262,6 @@
 #define OLD_SPICE
 #define VICTORY_FANFARE_SHORT
 #define ALL_STAR
-#define RICK_ROLL
 #define FF_PRELUDE
 #define TO_BOLDLY_GO
 #define KATAWARE_DOKI
